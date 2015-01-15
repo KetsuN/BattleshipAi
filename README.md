@@ -14,10 +14,9 @@ Unfortunately, I am not the owner of the server and, as such, the code for the s
 I plan on creating a duplicate server of my own for this application in the future
 
 File Description:
-BattleshipAi.py		- Main battleship executable file.
-Board.py			- Board objects representing game play fields.
-Ship.py				- For ship objects.
-Network				- For communication with the battleship server.
-NetworkObserver.py	- Contains observer pattern classes so that the network objects can communicate with observers without
-					  exiting the communication loop.
-MoveAi.py			- Main AI processing class.  Used to weight each grid space on the board and choose the best moves.
+* BattleshipAi.py		- Main battleship executable file.
+* Board.py			- Board objects representing game play fields.
+* Ship.py				- For ship objects.
+* Network				- For communication with the battleship server.
+* NetworkObserver.py	- Contains observer pattern classes so that the network objects can communicate with observers without exiting the communication loop.
+* MoveAi.py			- Main AI processing class.  Used to weight each grid space on the board and choose the best moves.
